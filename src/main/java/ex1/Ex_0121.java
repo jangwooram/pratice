@@ -22,8 +22,8 @@ public class Ex_0121 {
         // sw();
         //doubleFor();
         //forPlus();
-        //animalGame();
-        lastQuiz();
+        animalGame();
+//        lastQuiz();
     }
 
     public static void doubleIf() {
@@ -237,12 +237,13 @@ public class Ex_0121 {
 
     public static void animalGame() {
         int sum;
-        for(int i = 0; i < 17; i ++){
-            for (int j =0; j<17; j++) {
-                sum = i*4 + j*2;
-                if (sum == 56 && i+j ==17) {
-                    System.out.println("i = " + i + "  j = " + j);
-                }
+
+        for(int i = 1; i <= 17; i ++){
+            sum = i*4;
+            if(sum + 2*(17-i) == 56) {
+                int pig = sum/4;
+                System.out.println("돼지는 " + pig + "마리");
+                System.out.println("타조는 " + (17-pig) + "마리");
             }
         }
     }
