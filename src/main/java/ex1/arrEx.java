@@ -61,7 +61,7 @@ public class arrEx {
             run = false; //while문 탈출
             Outter:  // break 나오는 위치
             for (int a = 0; a < lottoNum.length-1; a++) { //배열 칸 만큼 반복   ,length-1 은 마지막 6번째 자리는 비교할 필요가 없어서임
-                for (int b = a + 1; b < lottoNum.length; b++) { // 바깥 for문보다 +1해서 증가
+                for (int b = a + 1; b < lottoNum.length; b++) { // 바깥 for문 보다 +1해서 증가
                     if (lottoNum[a] == lottoNum[b]) { // a번째와 b번째 배열 안에 숫자가 같은지 비교
                         run = true; // 중복 숫자가 있다면 while문 다시 반복
                         break Outter; // Outter는 숫자 비교중 중복이 생기면 탈출 하라는거, 그래야 속도 향상됨
