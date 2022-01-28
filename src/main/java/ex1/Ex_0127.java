@@ -159,8 +159,10 @@ public class Ex_0127 {
                 break;
         }
         if(to == 1 || to ==7) {
+            System.out.println(today);
             System.out.println("쉬셈");
         }else {
+            System.out.println(today);
             System.out.println("공부하셈");
         }
     }
