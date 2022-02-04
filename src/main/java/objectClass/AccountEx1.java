@@ -19,12 +19,12 @@ public class AccountEx1 {
         chulsu.deposit(5000);
         gildong.deposit(10000);
 
-        amount = gildong.withdraw(4000);
+        //amount = gildong.withdraw(4000);
         System.out.println("예금주 = " + chulsu.ownerName);
         System.out.println("잔액 = " + chulsu.blance);
         System.out.println("===============");
         System.out.println("예금주 = " + gildong.ownerName);
-        System.out.println("찾은 돈 = " + amount);
+        //System.out.println("찾은 돈 = " + amount);
         System.out.println("잔액 = " + gildong.blance);
     }
 }

@@ -12,7 +12,7 @@ public class AccountEx2 {
         younghee.deposit(5000);
         chanho.deposit(10000);
 
-        chanho.withdraw(3000);
+        //chanho.withdraw(3000);
 
         System.out.println();
 
