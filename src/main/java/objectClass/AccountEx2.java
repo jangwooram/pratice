@@ -12,10 +12,11 @@ public class AccountEx2 {
         younghee.deposit(5000);
         chanho.deposit(10000);
 
-        //chanho.withdraw(3000);
-
-        System.out.println();
-
+        try {
+            chanho.withdraw(300000);
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
+        }
         printAccount(younghee);
         printAccount(chanho);
     }
