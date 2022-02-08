@@ -23,6 +23,7 @@ public class AccountEx2 {
 
     //통장 자료 출력 메소드
     static void printAccount(Account obj) {
+        System.out.println("거래은행 " + Account.BankName);
         System.out.println("계좌번호 " + obj.accountNo);
         System.out.println("예금주 " + obj.ownerName);
         System.out.println("잔액 " + obj.blance);

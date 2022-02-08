@@ -9,7 +9,6 @@ public class Car {
     public Car() {
         this("아반떼","흰색",200);  // 파라메터가 없으면 디폴트 값을 this 메소드에 저장해서 뿌린다.
     }
-
     public Car(String model) {
         this(model,"흰색",200); // model만 파라메터로 받고 나머진 디폴트 값을 뿌림
     }

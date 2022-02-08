@@ -1,4 +1,4 @@
-package objectClass;
+package inheritance;
 
 public class Account {
     // field - 객체의 데이터가 저장되는곳
