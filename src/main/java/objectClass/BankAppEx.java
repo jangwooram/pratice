@@ -6,7 +6,7 @@ public class BankAppEx {
     private static BankApp[] bankArr = new BankApp[100];
     private static Scanner scan = new Scanner(System.in);
     static int count =0;
-    public static void main(String[] args) {
+    public void main(String[] args) {
 
         boolean run = true;
 
@@ -35,7 +35,7 @@ public class BankAppEx {
             }
         }
     }
-    private static void createAcc() {
+    private void createAcc() {
         if(count<100) {
 
             System.out.println("--------");
@@ -57,7 +57,7 @@ public class BankAppEx {
             System.out.println("계좌생성이 마감되었습니다.");
         }
     }
-    private static void accList() {
+    private void accList() {
         System.out.println("--------");
         System.out.println("계좌목록");
         System.out.println("--------");
@@ -66,7 +66,7 @@ public class BankAppEx {
             System.out.println(bankArr[i].getAno() + "     " + bankArr[i].getOwner() + "     " + bankArr[i].getBlance());
         }
     }
-    private static void deposit() {
+    private void deposit() {
         System.out.println("--------");
         System.out.println("예금");
         System.out.println("--------");
@@ -83,7 +83,7 @@ public class BankAppEx {
         }
     }
 
-    private static void withdraw() {
+    private void withdraw() {
         System.out.println("--------");
         System.out.println("출금");
         System.out.println("--------");
