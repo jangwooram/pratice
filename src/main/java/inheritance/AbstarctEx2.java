@@ -5,5 +5,7 @@ public class AbstarctEx2 {
         Animal animal;
         animal = new Tiger();
 
+        animal.move();
+
     }
 }
