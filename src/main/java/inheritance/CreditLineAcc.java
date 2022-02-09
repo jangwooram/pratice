@@ -7,6 +7,7 @@ public class CreditLineAcc extends Account{
         this.creditLine = creditLine;
     }
 
+    public CreditLineAcc() {}
     @Override
     int withdraw(int amount) throws Exception {
         if (blance+creditLine < amount) {

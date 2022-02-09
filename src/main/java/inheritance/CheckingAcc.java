@@ -12,6 +12,7 @@ public class CheckingAcc extends Account{
         this.cardNo = cardNo;
     }
 
+    public CheckingAcc(){}
 
     //결제 메소드
 
