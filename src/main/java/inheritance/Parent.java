@@ -9,6 +9,6 @@ public class Parent {
     }
     public Parent(String nation) {
         this.nation = nation;
-        System.out.println("Parent(String nation) call");
+        System.out.println(nation+"Parent(String nation) call");
     }
 }
