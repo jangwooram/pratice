@@ -14,7 +14,7 @@ public class AccountEx2 {
 
         try {
             chanho.withdraw(300000);
-        } catch (Exception e) {
+        } catch (BlanceErr e) {
             System.out.println(e.getMessage());
         }
         printAccount(younghee);

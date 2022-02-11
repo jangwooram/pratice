@@ -28,10 +28,10 @@ public class Account {
     }      // void 타입 부분에는 return이 잇어야 한다.(void는 리턴 안해도됨)
 
     //출금
-    int withdraw(int amount) throws Exception {
+    int withdraw(int amount) throws BlanceErr {
 
         if(blance < amount) {
-            throw new Exception("잔액이 부족합니다");
+            throw new BlanceErr("잔액이 부족합니다" + (amount - blance)+ "모자람");
         }
         blance -= amount; // blance = blance - amount
 
