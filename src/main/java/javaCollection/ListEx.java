@@ -7,7 +7,7 @@ public class ListEx {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
 
-        list.add("asdasda...ㅇㄴㄹㄴㅇ.........");
+        list.add("asdasda...ㅇㄴㄹㄴㅇ...........");
     }
 
 }
