@@ -6,7 +6,7 @@ import java.util.List;
 public class GenericEx1 {
     public static void main(String[] args) {
 
-        List nums = new ArrayList();
+        List<Integer> nums = new ArrayList<>();
         nums.add(10);
         nums.add(36);
         nums.add(20);
